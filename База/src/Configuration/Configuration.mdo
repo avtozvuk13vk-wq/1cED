@@ -41,4 +41,5 @@
   <catalogs>Catalog.КатегорияПерсонала</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Справочник</catalogs>
+  <documents>Document.Документ</documents>
 </mdclass:Configuration>
