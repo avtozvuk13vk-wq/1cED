@@ -35,6 +35,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <constants>Constant.Константа</constants>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Должность</catalogs>
   <catalogs>Catalog.КатегорияПерсонала</catalogs>
