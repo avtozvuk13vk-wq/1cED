@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dfc4b19-4863-461b-89a1-19bf231ad1e8">
+  <producedTypes>
+    <objectType typeId="8c3e4997-b74d-4598-880e-bf968f1e572a" valueTypeId="2d776aa2-8bd8-4559-8bed-67f7f5233b69"/>
+    <refType typeId="1a0b40c2-61d9-4ec8-8224-984c94d8dc6b" valueTypeId="512c98b7-b905-4001-b7c0-938f3921d196"/>
+    <selectionType typeId="df087d45-f7e8-4db7-b346-c9557103fd1c" valueTypeId="cc30753a-ce66-44f4-ab0e-04a4d3ed9b02"/>
+    <listType typeId="1feec9aa-5787-4f48-96b6-2dca12f36910" valueTypeId="38e7f6ad-228a-4660-b6c1-642ed9184dcd"/>
+    <managerType typeId="11837500-0a54-449e-b7f8-ea6b2d3231b4" valueTypeId="301d6d6d-43fa-4c2b-a377-8f628f17b3ec"/>
+  </producedTypes>
+  <name>КатегорияПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категория персонала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорияПерсонала.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорияПерсонала.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

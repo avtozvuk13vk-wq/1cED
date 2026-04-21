@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea8e70c4-781c-4801-b280-08749382158f">
+  <producedTypes>
+    <objectType typeId="c917db0b-a5e1-4ff4-b461-94fe946356f1" valueTypeId="2fbdf7c1-4c4d-43df-a01b-6e8fb733fcaa"/>
+    <refType typeId="49ea3d5d-f4a5-47cd-8a3b-596d83da6c6e" valueTypeId="72ad68a3-eed6-46f7-ad2b-21b355462165"/>
+    <selectionType typeId="123489b6-ebb9-4c24-8de4-34391e9e247e" valueTypeId="9b74e1ab-52f3-4550-a685-5b710990b08b"/>
+    <listType typeId="92dceeb8-ad4e-41c3-a59f-b45086f71fd5" valueTypeId="da08abb2-c421-4f1a-b610-841140617473"/>
+    <managerType typeId="a32b1b5a-cf93-4017-aee7-83c687f1a462" valueTypeId="3c824158-d266-4073-86a2-c0616db6ee0f"/>
+  </producedTypes>
+  <name>Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b026ba9d-4e6d-4ce0-b6e8-076867709d0b">
+    <name>НаименованиеПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование подразделения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f2f8086-cd3c-4e9f-a6c2-53bd1d5c5576">
+    <name>РуководительПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель подразделения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b248c8f1-e3e4-41e1-bb53-e24ed0a0ff17">
+    <name>РасположениеПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расположение подразделения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

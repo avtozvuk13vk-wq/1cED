@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4aafa2d-8298-41fb-b86a-b5df4a780492">
+  <producedTypes>
+    <objectType typeId="62375c6b-d33b-48a6-9b36-8ba8922cd279" valueTypeId="393a65bd-a55f-4c60-b5be-246ccb05751f"/>
+    <refType typeId="13b16173-6a58-46dc-99d9-5235f1a824c8" valueTypeId="bdade370-cb93-4e4f-a88c-9997f024e0ab"/>
+    <selectionType typeId="ba3a8ec4-aad3-4b75-9972-e3aa0da667e4" valueTypeId="5ffed85d-95f9-4b74-b0aa-036d09da1cef"/>
+    <listType typeId="6c26240e-6bc8-4233-b20e-0ef0690d9713" valueTypeId="eae29cc7-7c49-4771-8bdf-4ebffe7a68d5"/>
+    <managerType typeId="9e829c7b-d9b7-4502-943a-4b30c9295b43" valueTypeId="3fff916f-10e7-4336-985b-330df35ddfda"/>
+  </producedTypes>
+  <name>Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должность.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Должность.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5890a06b-5a33-412a-ab55-85ff03ed60d3">
+    <name>КатегорияДолжности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория должности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61b9de7c-5777-447a-8ede-a2d62b4083a5">
+    <name>ПрофильныйДепартамент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профильный департамент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
